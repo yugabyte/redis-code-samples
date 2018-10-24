@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test,integrationTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test,integrationTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test,integrationTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/integrationTest" kind="src" path="src/integration-test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="integrationTest"/>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/integrationTest" kind="src" path="src/integration-test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="integrationTest"/>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="src" path="/spring-session-core">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.1.1.RELEASE/d9ef0a10219f5b84c8774f390239cdcbb6760db9/spring-data-redis-2.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.1.1.RELEASE/1021ad09cfc8a30d33748a254b88ac83fa5d5185/spring-data-redis-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-keyvalue/2.1.1.RELEASE/71a7aa228fd3df22983c11556373417181ea76d0/spring-data-keyvalue-2.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-keyvalue/2.1.1.RELEASE/21f5844e8b09f58deaeb5c1b660a9cea885f4ad4/spring-data-keyvalue-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.1.RELEASE/2cf76b60c94c3376d1f3f8a92aefe6acd31bef45/spring-tx-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.1.RELEASE/a3c577ae3a20797e9cfcb3c3af841777e8ebc5de/spring-tx-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/5.1.1.RELEASE/891791b713b36edffee8aa837117c60923c4e312/spring-oxm-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/5.1.1.RELEASE/518bf9c764f619d4e3f8e7631412b0c99e7d74ce/spring-oxm-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/5.1.1.RELEASE/9b08fd40edc8805da25dd35d38f82d7f8bf7a620/spring-context-support-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/5.1.1.RELEASE/b5308e163baf98f146d2b9ebf42294f8ae5f220a/spring-context-support-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.1.RELEASE/f36485362b76c4149e89362020853f0f47ed28e8/spring-context-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.1.RELEASE/f1d8a23e90bf4f6532f0a4c868c55c0930d88108/spring-context-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.1.RELEASE/bbdc4c94cfcd075ef1aef98fb67fc8284a5ee878/spring-aop-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.1.RELEASE/d7b2873a244ea6bbe42e6f63a95b7e3b71817508/spring-aop-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.1.RELEASE/2fba17ab9d9b43408fc65672feb12cfd9c53c741/spring-data-commons-2.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.1.RELEASE/62648df81233a4f4072ee317e6d10cdfcfe39f35/spring-data-commons-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.1.RELEASE/552cafe9253cfd4d9c248966eeb96b618df96c7b/spring-beans-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.1.RELEASE/b0f2d4c9b7cb3d94140df878635880302b67c403/spring-beans-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.1.RELEASE/923d4b23b55e114dfdbf6c23fbbb310ddfec567f/spring-expression-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.1.RELEASE/75979adece6da931d5d3718db0d253f14f249c26/spring-expression-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.1.RELEASE/1fa8684e28edd4735296386a141786bc4302430c/spring-core-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.1.RELEASE/b40766e482b9cc9cd3ed0958da0ed30202a284b4/spring-core-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.1.RELEASE/fad0c7c3f1b98f531ee570be63cf83e6b5e877e4/spring-jcl-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.1.RELEASE/47f1e3654845260dad4308565464fb26be2fae5/spring-jcl-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.23.0/cdd452f898001f5dc35448c623e16bde4f4817c6/mockito-core-2.23.0-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.23.0/497ddb32fd5d01f9dbe99a2ec790aeb931dff1b1/mockito-core-2.23.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.1.RELEASE/6262bb43964c5837a9b7d67f07257ab3ffecc879/spring-test-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.1.RELEASE/68f366d30689f517fbb8acbde3fbfc3eca5e45f6/spring-test-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.11.1/55362d8f04018b1140c5a370057bf8cd4a63c3de/assertj-core-3.11.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.11.1/fdac3217b804d6900fa3650f17b5cb48e620b140/assertj-core-3.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-test/3.2.1.RELEASE/f11d56fe93975fd7d2a8dd769df4869860d6eb19/reactor-test-3.2.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-test/3.2.1.RELEASE/dc390abb1487847366b48b3eb4190661705c591a/reactor-test-3.2.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.1/49a9da44db6e6b5f44ce15ddfcfe2b6666151b25/javax.servlet-api-4.0.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.1/a27082684a2ff0bf397666c3943496c44541d1ca/javax.servlet-api-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.1.RELEASE/ac22ebc1d1b75af1251fc924a06521db6ca77ed0/spring-web-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.1.RELEASE/71407ea649738b7a054f21d388de39a99265463/spring-web-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.1.1.RELEASE/5310fc9e1861e63a3073525f365c89be80d5967f/spring-security-core-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.1.1.RELEASE/f48cca9129d4e080f70e8a318b15493452b15a0/spring-security-core-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.0/12391ab880117385828a50e6d9a367f184de3850/byte-buddy-1.9.0-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.0/8cb0d5baae526c9df46ae17693bbba302640538b/byte-buddy-1.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.0/5d1492954907fda7cf90e20922cd6ae4675ed159/byte-buddy-agent-1.9.0-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.0/37b5703b4a6290be3fffc63ae9c6bcaaee0ff856/byte-buddy-agent-1.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/96614f514a1031296657bf0dde452dc15e42fcb8/objenesis-2.6-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.2.1.RELEASE/1e660fd102b06e89bc68da4f773255f721c28194/reactor-core-3.2.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.2.1.RELEASE/7560fd565b04cde039611a9647d1bdac3af9897a/reactor-core-3.2.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/fb592a3d57b11e71eb7a6211dd12ba824c5dd037/reactive-streams-1.0.2-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest,main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.lettuce/lettuce-core/5.1.1.RELEASE/4c3df5abd2a419c17b83e56ffa9fa3fd3e0a71f6/lettuce-core-5.1.1.RELEASE-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.lettuce/lettuce-core/5.1.1.RELEASE/7871c42c4683cd7ce8932b9f07845443fa3bd6c0/lettuce-core-5.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.9.1/7c7dd8333b0da8cac701ae2ca601b1e416ba1cde/testcontainers-1.9.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.9.1/2cf272f7d218b605e62cc723a063fce25a031c09/testcontainers-1.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.29.Final/8e32bdaf65071b4f27b6132419f01116047bc011/netty-handler-4.1.29.Final-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.29.Final/1acf1d94799296a2517533ec75ce7e155e9c4ea7/netty-handler-4.1.29.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.29.Final/a422f98ea0ca278de502e43ed80e56dee65bb4ad/netty-codec-4.1.29.Final-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.29.Final/1651bc2e279216773c234cafe402d68d2a5adc90/netty-codec-4.1.29.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.29.Final/e3bc3e4551ed442348e1ce430cd32d01c0b31bcb/netty-transport-4.1.29.Final-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.29.Final/c190b90f70e2ae8a48c068afad709e8728fcaa39/netty-transport-4.1.29.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.29.Final/c47b88a34c25e064a9edf1289037f2ad6ae0034d/netty-buffer-4.1.29.Final-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.29.Final/c3809f72e4b535b343b7dfa3c0c8210dad2fa5ea/netty-buffer-4.1.29.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.29.Final/689f61915b957ad2633ac91212e288b522710889/netty-resolver-4.1.29.Final-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.29.Final/bbec1dc913732e4773893c14d795b15d6c1e878e/netty-resolver-4.1.29.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.29.Final/510fd5cf26024b39da89fb614e13f85a078a32e2/netty-common-4.1.29.Final-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.29.Final/a5d6a735ed07d8f197daa48db7f097cfc971ee5e/netty-common-4.1.29.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-ext/1.7.25/da5cead7cf1463cabec6cd56a9b8936037711e0c/slf4j-ext-1.7.25-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-ext/1.7.25/d1685f86e2becda32ad8bb823b8cc4990eb45f69/slf4j-ext-1.7.25.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.rnorth/tcp-unix-socket-proxy/1.0.2/5a4f159acf6febfb02e19dca25ab869dbc73c65e/tcp-unix-socket-proxy-1.0.2-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.rnorth/tcp-unix-socket-proxy/1.0.2/cf53989130986c60113032e25185f4496ffbc186/tcp-unix-socket-proxy-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/e46282033fcc73c8b9eb55f297b264cee3680f29/annotations-15.0-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/d40ab99147584cf6cfb5245be67b3fee2c7220f9/annotations-15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.16.1/f7dde5c5163ac128750fc2d6ec00ae6a7ff624ab/commons-compress-1.16.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.16.1/7b5cdabadb4cf12f5ee0f801399e70635583193f/commons-compress-1.16.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.0/431dc11c8e5d8b9f5149be5757ef8e170fc6824a/jaxb-api-2.3.0-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.0/99f802e0cb3e953ba3d6e698795c4aeb98d37c48/jaxb-api-2.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.rnorth.duct-tape/duct-tape/1.0.7/f284c5ce9d3b7bd612dcdd754fb9d09b021dcb05/duct-tape-1.0.7-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.rnorth.duct-tape/duct-tape/1.0.7/a26b5d90d88c91321dc7a3734ea72d2fc019ebb6/duct-tape-1.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.rnorth.visible-assertions/visible-assertions/2.1.1/1e56e626fb4396120c9800c24e46737ade4c9b9/visible-assertions-2.1.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.rnorth.visible-assertions/visible-assertions/2.1.1/56b626f7de0c604621cde92a8971e75ac6437d5/visible-assertions-2.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.5.1/2793e1c7c5e916e909addff50dd38d37ff848bf6/jna-platform-4.5.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.5.1/117d52c9f672d8b7ea80a81464c33ef843de9254/jna-platform-4.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.5.1/965bf0f4cf5b71c2b1e9bb5a8d7b6919020e0492/jna-4.5.1-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.5.1/65bd0cacc9c79a21c6ed8e9f588577cd3c2f85b9/jna-4.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-native-common/2.0.4/c5c3baaf3ca3fe0012ac6826a232e45ffa704c30/junixsocket-native-common-2.0.4-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-native-common/2.0.4/726bd66a934dea39c817382986496fa4eda96411/junixsocket-native-common-2.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-common/2.0.4/93f60af6bcdca6eee8d3ed5914bcfabb9f2618f0/junixsocket-common-2.0.4-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-common/2.0.4/b4d1870bf903412533e0b79c6fcd402defcfc05b/junixsocket-common-2.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.scijava/native-lib-loader/2.0.2/b1e0fa440cac2b1ba8ee6694f5a70cd4d79ff85b/native-lib-loader-2.0.2-sources.jar" kind="lib" path="/Users/amitanand/.gradle/caches/modules-2/files-2.1/org.scijava/native-lib-loader/2.0.2/1451fa03954c5e31a358b411147de472b4dab92c/native-lib-loader-2.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>
