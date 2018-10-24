@@ -864,13 +864,17 @@ public class RedisOperationsSessionRepository implements
 				if (!isNew()) {
 					String originalSessionIdKey = getSessionKey(this.originalSessionId);
 					String sessionIdKey = getSessionKey(sessionId);
-					RedisOperationsSessionRepository.this.sessionRedisOperations.rename(
-							originalSessionIdKey, sessionIdKey);
+					
+				  // YB doesn't support renames yet. Do a HGetAll + HMSet + Del instead.
+				  RedisOperationsSessionRepository.this.sessionRedisOperations.opsForHash().putAll(sessionIdKey,
+				      RedisOperationsSessionRepository.this.sessionRedisOperations.opsForHash().entries(originalSessionIdKey));
+				  RedisOperationsSessionRepository.this.sessionRedisOperations.delete(sessionIdKey);
 					String originalExpiredKey = getExpiredKey(this.originalSessionId);
 					String expiredKey = getExpiredKey(sessionId);
 					try {
-						RedisOperationsSessionRepository.this.sessionRedisOperations.rename(
-								originalExpiredKey, expiredKey);
+		        RedisOperationsSessionRepository.this.sessionRedisOperations.opsForValue().set(expiredKey,
+		            RedisOperationsSessionRepository.this.sessionRedisOperations.opsForValue().get(originalExpiredKey));
+		        RedisOperationsSessionRepository.this.sessionRedisOperations.delete(expiredKey);
 					}
 					catch (NonTransientDataAccessException ex) {
 						if (!"ERR no such key".equals(NestedExceptionUtils
