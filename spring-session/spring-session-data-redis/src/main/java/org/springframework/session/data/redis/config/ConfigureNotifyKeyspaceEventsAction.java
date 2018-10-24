@@ -73,11 +73,12 @@ public class ConfigureNotifyKeyspaceEventsAction implements ConfigureRedisAction
 
 	private String getNotifyOptions(RedisConnection connection) {
 		try {
-			Properties config = connection.getConfig(CONFIG_NOTIFY_KEYSPACE_EVENTS);
-			if (config.isEmpty()) {
+      // Disable this until YB supports 'CONFIG GET'
+//      Properties config = connection.getConfig(CONFIG_NOTIFY_KEYSPACE_EVENTS);
+//			if (config.isEmpty()) {
 				return "";
-			}
-			return config.getProperty(config.stringPropertyNames().iterator().next());
+//			}
+//			return config.getProperty(config.stringPropertyNames().iterator().next());
 		}
 		catch (InvalidDataAccessApiUsageException ex) {
 			throw new IllegalStateException(
