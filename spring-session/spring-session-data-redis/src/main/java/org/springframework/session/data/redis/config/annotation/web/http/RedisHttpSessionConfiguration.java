@@ -131,15 +131,16 @@ public class RedisHttpSessionConfiguration extends SpringHttpSessionConfiguratio
 		if (this.redisTaskExecutor != null) {
 			container.setTaskExecutor(this.redisTaskExecutor);
 		}
-		if (this.redisSubscriptionExecutor != null) {
-			container.setSubscriptionExecutor(this.redisSubscriptionExecutor);
-		}
-		container.addMessageListener(sessionRepository(), Arrays.asList(
-				new ChannelTopic(sessionRepository().getSessionDeletedChannel()),
-				new ChannelTopic(sessionRepository().getSessionExpiredChannel())));
-		container.addMessageListener(sessionRepository(),
-				Collections.singletonList(new PatternTopic(
-						sessionRepository().getSessionCreatedChannelPrefix() + "*")));
+		// Disable Subscribe until YB supports it.
+//		if (this.redisSubscriptionExecutor != null) {
+//			container.setSubscriptionExecutor(this.redisSubscriptionExecutor);
+//		}
+//		container.addMessageListener(sessionRepository(), Arrays.asList(
+//				new ChannelTopic(sessionRepository().getSessionDeletedChannel()),
+//				new ChannelTopic(sessionRepository().getSessionExpiredChannel())));
+//		container.addMessageListener(sessionRepository(),
+//				Collections.singletonList(new PatternTopic(
+//						sessionRepository().getSessionCreatedChannelPrefix() + "*")));
 		return container;
 	}
 

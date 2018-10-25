@@ -420,8 +420,9 @@ public class RedisOperationsSessionRepository implements
 	public void save(RedisSession session) {
 		session.saveDelta();
 		if (session.isNew()) {
-			String sessionCreatedKey = getSessionCreatedChannel(session.getId());
-			this.sessionRedisOperations.convertAndSend(sessionCreatedKey, session.delta);
+		  // Disable Publish until YB supports it.
+//			String sessionCreatedKey = getSessionCreatedChannel(session.getId());
+//			this.sessionRedisOperations.convertAndSend(sessionCreatedKey, session.delta);
 			session.setNew(false);
 		}
 	}
