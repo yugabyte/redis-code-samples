@@ -9,6 +9,16 @@ It also provides transparent integration with:
 * `WebSocket` - provides the ability to keep the `HttpSession` alive when receiving WebSocket messages
 * `WebSession` - allows replacing the Spring WebFlux's `WebSession` in an application container neutral way.
 
+== How to run against YugabyteDB
+
+To run this against a yugabyte cluster. Make sure that you have a local yugabyte cluster running and the yedis proxy is listening on :6379
+
+Run:
+ gradle :spring-session-sample-boot-redis:bootRun
+
+to start the application. It should start listening on localhost:8080
+
+More instructions at : https://docs.spring.io/spring-session/docs/current/reference/html5/guides/boot-redis.html#boot-sample
 == Modules
 
 Spring Session consists of the following modules:
